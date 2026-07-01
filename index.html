@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b8cff">
+  <meta name="description" content="TYPEDの活動、創作、SNS、アプリをまとめたハブ型ホームページです。">
+  <title>TYPED Homepage</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <!-- PWAアイコンは assets/icons/icon-192.png と icon-512.png を配置すると有効になります。 -->
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="site-header" data-current="home"></div>
+
+  <main>
+    <section class="hero">
+      <!-- 背景画像を使う場合は style="--hero-image: url('./assets/images/hero.jpg');" を hero-panel に追加してください。 -->
+      <div class="hero-panel">
+        <div class="hero-content">
+          <p class="eyebrow">Creator / YouTuber / Gadget / Streaming</p>
+          <h1>TYPED Homepage</h1>
+          <p class="lead">TYPED（タイプ・D）の公式ホームページです。TYPEDの各SNSを一つにまとめてあります。また、ここでしか見られないコンテンツもあります。TYPEDが描いた創作小説やプロフィール等はこちらから。</p>
+          <div class="actions">
+            <a class="button primary" href="./works.html">YouTubeチャンネルを見る</a>
+            <a class="button" href="./sns.html">SNSへ移動</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="feature-strip">
+        <article class="feature">
+          <p class="eyebrow">Profile</p>
+          <h2>TYPEDについて</h2>
+          <p>動画投稿、創作、配信を軸に活動する人物。詳しい自己紹介や活動方針をまとめています。</p>
+          <a class="button ghost" href="./about.html">自己紹介へ</a>
+        </article>
+        <article class="feature">
+          <p class="eyebrow">YouTube</p>
+          <h2>動画と配信</h2>
+          <p>動画投稿、配信の紹介ページです。</p>
+          <a class="button ghost" href="./works.html">チャンネル紹介へ</a>
+        </article>
+        <article class="feature">
+          <p class="eyebrow">Apps</p>
+          <h2>自作ソフト・アプリ</h2>
+          <p>AIを用いて様々なWindowsソフトやAndroidアプリ等を作っています。こちらからダウンロードできます。</p>
+          <a class="button ghost" href="./apps.html">アプリ一覧へ</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid two">
+        <article class="card">
+          <h2>SNSリンク</h2>
+          <p>発信内容ごとに役割を分けたSNSリンク集です。</p>
+          <a class="button" href="./sns.html">SNSを見る</a>
+        </article>
+        <article class="card">
+          <h2>創作小説</h2>
+          <p>管理人が制作したオリジナル（またはノベライズ）小説をフリーで公開しているページです。</p>
+          <a class="button" href="./novels.html">小説一覧へ</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 TYPED. All rights reserved.</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "name": "TYPED Homepage",
+  "short_name": "TYPED",
+  "description": "TYPEDの活動、創作、SNS、アプリをまとめたハブ型ホームページです。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1b8cff",
+  "background_color": "#f7fcff",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SNS",
+      "short_name": "SNS",
+      "url": "./sns.html"
+    },
+    {
+      "name": "小説",
+      "short_name": "小説",
+      "url": "./novels.html"
+    },
+    {
+      "name": "アプリ",
+      "short_name": "アプリ",
+      "url": "./apps.html"
+    }
+  ]
+}
